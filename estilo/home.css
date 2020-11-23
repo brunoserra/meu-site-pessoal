@@ -1,3 +1,42 @@
 body {
-    background-color: rgb(165, 162, 162);
+    background-color: rgb(133, 129, 129);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecalho {
+    border: rgb(54, 23, 23) 2px solid;
+    border-radius: 15px;
+    padding-left: 50%;
+    margin-bottom: 40px;
+    box-shadow: rgb(99, 88, 88) 4px 4px 7px;
+}
+
+#container {
+    background-image: url(../img/macbook-577758_1280.png);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+
+a {
+    color: rgb(90, 18, 24);
+    text-decoration: unset;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar {
+    display: inline-flexbox;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    padding-left: 50%;
+    padding-top: 10%;
+}
+
+#perfil {
+    width: 40%;
+    padding-left: 65%;
+    padding-top: 5%;
+}
+
+
 }
